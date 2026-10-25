@@ -18,3 +18,4 @@ data/batch_results/
 # Isletim sistemi
 .DS_Store
 Thumbs.db
+*.backup
