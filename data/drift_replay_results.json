@@ -1,0 +1,60 @@
+{
+  "probe_start": "2026-05-11",
+  "n_probe": 49,
+  "checkpoints": [
+    {
+      "cutoff": "2026-05-01",
+      "n_train": 310,
+      "n_cities": 10,
+      "tau_if": -0.5283535441817241,
+      "train_anomaly_rate": 0.05161290322580645,
+      "probe_anomaly_rate": 0.04081632653061224,
+      "probe_mean_score": -0.45267341026059116
+    },
+    {
+      "cutoff": "2026-05-03",
+      "n_train": 771,
+      "n_cities": 10,
+      "tau_if": -0.5406529091634781,
+      "train_anomaly_rate": 0.05058365758754864,
+      "probe_anomaly_rate": 0.061224489795918366,
+      "probe_mean_score": -0.47063143097750004
+    },
+    {
+      "cutoff": "2026-05-05",
+      "n_train": 1254,
+      "n_cities": 10,
+      "tau_if": -0.5520601298933523,
+      "train_anomaly_rate": 0.050239234449760764,
+      "probe_anomaly_rate": 0.04081632653061224,
+      "probe_mean_score": -0.474473680955243
+    },
+    {
+      "cutoff": "2026-05-07",
+      "n_train": 1284,
+      "n_cities": 10,
+      "tau_if": -0.5564882876988282,
+      "train_anomaly_rate": 0.050623052959501556,
+      "probe_anomaly_rate": 0.04081632653061224,
+      "probe_mean_score": -0.4685263841358844
+    },
+    {
+      "cutoff": "2026-05-09",
+      "n_train": 1284,
+      "n_cities": 10,
+      "tau_if": -0.5564882876988282,
+      "train_anomaly_rate": 0.050623052959501556,
+      "probe_anomaly_rate": 0.04081632653061224,
+      "probe_mean_score": -0.4685263841358844
+    },
+    {
+      "cutoff": "2026-05-11",
+      "n_train": 1284,
+      "n_cities": 10,
+      "tau_if": -0.5564882876988282,
+      "train_anomaly_rate": 0.050623052959501556,
+      "probe_anomaly_rate": 0.04081632653061224,
+      "probe_mean_score": -0.4685263841358844
+    }
+  ]
+}

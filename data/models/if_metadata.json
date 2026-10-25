@@ -1,0 +1,45 @@
+{
+  "trained_at": "2026-05-04T15:39:02.105439+00:00",
+  "n_train_samples": 1003,
+  "n_val_samples": 251,
+  "feature_columns": [
+    "pm25",
+    "pm10",
+    "co",
+    "no2",
+    "so2",
+    "o3",
+    "t",
+    "h",
+    "p",
+    "w",
+    "hour_of_day",
+    "day_of_week"
+  ],
+  "core_features": [
+    "pm25",
+    "pm10",
+    "co",
+    "no2",
+    "so2",
+    "o3",
+    "t",
+    "h",
+    "p",
+    "w"
+  ],
+  "hyperparameters": {
+    "n_estimators": 200,
+    "contamination": 0.05,
+    "random_state": 42
+  },
+  "train_anomaly_rate": 0.05084745762711865,
+  "val_anomaly_rate": 0.11155378486055777,
+  "train_score_stats": {
+    "mean": -0.4589324022385303,
+    "std": 0.04854134855099516,
+    "p01": -0.6160049238579156,
+    "p05": -0.5494789656252516,
+    "p50": -0.4458246343601706
+  }
+}

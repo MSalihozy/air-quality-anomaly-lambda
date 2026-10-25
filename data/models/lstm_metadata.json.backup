@@ -1,0 +1,27 @@
+{
+  "trained_at": "2026-05-05T07:53:10.210707+00:00",
+  "feature_columns": [
+    "pm25",
+    "pm10",
+    "co",
+    "no2",
+    "so2",
+    "o3",
+    "t",
+    "h",
+    "p",
+    "w"
+  ],
+  "sequence_length": 12,
+  "latent_dim": 4,
+  "hidden_dim": 12,
+  "n_train_sequences": 322,
+  "n_val_sequences": 40,
+  "epochs_run": 164,
+  "final_train_loss": 0.3096775412559509,
+  "final_val_loss": 0.5378605127334595,
+  "threshold_p95": 0.7212151324772089,
+  "threshold_p99": 0.8533828324880325,
+  "train_mse_mean": 0.326885445410342,
+  "train_mse_std": 0.1760783893558865
+}

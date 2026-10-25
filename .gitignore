@@ -1,0 +1,20 @@
+# Gizli bilgiler
+.env
+*.key
+*.token
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Veri ve modeller (Zenodo'ya ayrica konacak)
+data/raw_parquet/
+data/checkpoints/
+data/models_backup_*/
+data/batch_results/
+
+# Isletim sistemi
+.DS_Store
+Thumbs.db

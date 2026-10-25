@@ -1,0 +1,55 @@
+{
+  "ablation_type": "latent_dimension",
+  "tested_at": "2026-06-25T08:00:11.742766+00:00",
+  "fixed_params": {
+    "sequence_length": 12,
+    "hidden_dim": 12,
+    "batch_size": 16,
+    "learning_rate": 0.0005,
+    "patience": 20,
+    "random_state": 42
+  },
+  "results": [
+    {
+      "latent_dim": 2,
+      "n_params": 2114,
+      "n_epochs": 200,
+      "final_train_loss": 0.24240230023860931,
+      "final_val_loss": 0.43930551409721375,
+      "best_val_loss": 0.42887142300605774,
+      "threshold_p99": 0.7479629883765528,
+      "train_val_ratio": 1.8122992796057722
+    },
+    {
+      "latent_dim": 4,
+      "n_params": 2466,
+      "n_epochs": 156,
+      "final_train_loss": 0.23817972838878632,
+      "final_val_loss": 0.4051917493343353,
+      "best_val_loss": 0.4043801426887512,
+      "threshold_p99": 0.7909297741378961,
+      "train_val_ratio": 1.701201660088097
+    },
+    {
+      "latent_dim": 8,
+      "n_params": 3458,
+      "n_epochs": 77,
+      "final_train_loss": 0.1922590285539627,
+      "final_val_loss": 0.3570488691329956,
+      "best_val_loss": 0.3529432415962219,
+      "threshold_p99": 0.7575396496730687,
+      "train_val_ratio": 1.8571240675585758
+    },
+    {
+      "latent_dim": 16,
+      "n_params": 6594,
+      "n_epochs": 134,
+      "final_train_loss": 0.13955961167812347,
+      "final_val_loss": 0.32706189155578613,
+      "best_val_loss": 0.3213599920272827,
+      "threshold_p99": 0.7181251743221022,
+      "train_val_ratio": 2.343528243042929
+    }
+  ],
+  "best_latent_dim": 16
+}
